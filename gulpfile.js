@@ -1,5 +1,4 @@
-// Ścieżka do aktualnie wykonywanego zadania
-const entryPath = ".";
+const entryPath = "tomasz0705page";
 
 const gulp = require("gulp");
 const sass = require("gulp-sass");
@@ -27,6 +26,7 @@ function watcher(done) {
 
   gulp.watch(entryPath + "/scss/**/*.scss", gulp.series(compileSass, reload));
   gulp.watch(entryPath + "/*.html", gulp.series(reload));
+  gulp.watch(entryPath + "/js/*.js", gulp.series(reload));
 
   done();
 }
