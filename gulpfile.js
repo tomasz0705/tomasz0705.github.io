@@ -1,4 +1,4 @@
-const entryPath = "tomasz0705page";
+const entryPath = ".";
 
 const gulp = require("gulp");
 const sass = require("gulp-sass");
