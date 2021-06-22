@@ -22,8 +22,6 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 
@@ -439,7 +437,6 @@ a {
   width: 30%;
   margin-top: 30px;
   padding: 5px;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -544,5 +541,26 @@ a {
 }
 .main__wrapper .main__aside .aside__socialmedia .fab:hover {
   color: #55dfb4;
+}
+
+.main__content {
+  width: 700px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.main__content .portfolio__bestshop {
+  text-align: center;
+}
+.main__content .portfolio__bestshop h4 {
+  margin-top: 10px;
+}
+.main__content .portfolio__bestshop p {
+  margin-top: 10px;
+}
+.main__content .portfolio__bestshop .bestshop__gif {
+  max-width: 100%;
+  margin-top: 20px;
 }
 /*# sourceMappingURL=main.css.map */
