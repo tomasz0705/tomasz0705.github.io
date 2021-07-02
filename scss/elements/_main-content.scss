@@ -1,26 +1,82 @@
 .main__content {
-    width: 700px;
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
 
     .portfolio {
+        width: 100%;
+        padding: 20px 30px;
+        line-height: 1.3;
 
         &__bestshop {
+            display: flex;
+            flex-direction: column;
             text-align: center;
 
+            h2 {
+                font-size: 1.8rem;
+                font-weight: 600;
+            }
+
             h4 {
+                font-size: 1rem;
                 margin-top: 10px;
+                font-weight: 600;
             }
 
             p {
                 margin-top: 10px;
+                font-size: 1rem;
             }
 
             .bestshop__gif {
                 max-width: 100%;
-                margin-top: 20px;
+                height: auto;
+                box-shadow: $color-basic-shadow;
+                margin: 20px;
+            }
+
+            .link__adobexd {
+                color: #267CB9;
+                margin-top: 10px;
+            }
+        }
+
+        &__cryptotracker {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-top: 60px;
+
+            h2 {
+                font-size: 1.8rem;
+                font-weight: 600;
+            }
+
+            h4 {
+                margin-top: 10px;
+                font-size: 1rem;
+                font-weight: 600;
+            }
+
+            p {
+                margin-top: 10px;
+                font-size: 1rem;
+            }
+
+            .project__linkonline {
+                .project__image {
+                    max-width: 100%;
+                    height: auto;
+                    box-shadow: $color-basic-shadow;
+                    margin: 20px;
+                }
+            }
+
+            .link__github {
+                color: #267CB9;
+                margin-top: 10px;
             }
         }
     }
