@@ -584,6 +584,9 @@ a {
   color: #267CB9;
   margin-top: 10px;
 }
+.main__content .portfolio__bestshop .link__adobexd:hover {
+  color: #55dfb4;
+}
 .main__content .portfolio__cryptotracker {
   display: flex;
   flex-direction: column;
@@ -612,5 +615,47 @@ a {
 .main__content .portfolio__cryptotracker .link__github {
   color: #267CB9;
   margin-top: 10px;
+}
+.main__content .portfolio__cryptotracker .link__github:hover {
+  color: #55dfb4;
+}
+.main__content .portfolio .portfolio__put-things-in-good-hands {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 60px;
+}
+.main__content .portfolio .portfolio__put-things-in-good-hands h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.main__content .portfolio .portfolio__put-things-in-good-hands h4 {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.main__content .portfolio .portfolio__put-things-in-good-hands p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+.main__content .portfolio .portfolio__put-things-in-good-hands .project__linkonline .project__image {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.36);
+  margin: 20px;
+}
+.main__content .portfolio .portfolio__put-things-in-good-hands .link__github {
+  color: #267CB9;
+  margin-top: 10px;
+}
+.main__content .portfolio .portfolio__put-things-in-good-hands .link__github:hover {
+  color: #55dfb4;
+}
+.main__content .portfolio .portfolio__put-things-in-good-hands .link__adobexd {
+  color: #267CB9;
+  margin-top: 10px;
+}
+.main__content .portfolio .portfolio__put-things-in-good-hands .link__adobexd:hover {
+  color: #55dfb4;
 }
 /*# sourceMappingURL=main.css.map */

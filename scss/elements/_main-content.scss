@@ -40,6 +40,10 @@
             .link__adobexd {
                 color: #267CB9;
                 margin-top: 10px;
+
+                &:hover {
+                    color: $color-green;
+                }
             }
         }
 
@@ -77,6 +81,60 @@
             .link__github {
                 color: #267CB9;
                 margin-top: 10px;
+
+                &:hover {
+                    color: $color-green;
+                }
+            }
+        }
+
+        .portfolio__put-things-in-good-hands {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-top: 60px;
+
+            h2 {
+                font-size: 1.8rem;
+                font-weight: 600;
+            }
+
+            h4 {
+                margin-top: 10px;
+                font-size: 1rem;
+                font-weight: 600;
+            }
+
+            p {
+                margin-top: 10px;
+                font-size: 1rem;
+            }
+
+            .project__linkonline {
+                .project__image {
+                    max-width: 100%;
+                    height: auto;
+                    box-shadow: $color-basic-shadow;
+                    margin: 20px;
+                }
+            }
+
+            .link__github {
+                color: #267CB9;
+                margin-top: 10px;
+
+                &:hover {
+                    color: $color-green;
+                }
+            }
+
+            .link__adobexd {
+                color: #267CB9;
+                margin-top: 10px;
+
+                &:hover {
+                    color: $color-green;
+                }
             }
         }
     }
