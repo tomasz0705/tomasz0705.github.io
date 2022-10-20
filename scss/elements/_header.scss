@@ -57,5 +57,67 @@
 
     &__nav {
         display: flex;
+
+        @include mobile {
+            position: absolute;
+            left: 0;
+            top: 95px;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+            width: 100%;
+            padding-bottom: 20px;
+            display: none;
+        }
+    }
+
+    .menu {
+        &__btn {
+            display: none;
+
+            @include mobile {
+                &:checked {
+                    ~ .header__nav {
+                        display: flex;
+                    }
+
+                    ~ .menu__toggle {
+                        span {
+                            &:nth-child(1) {
+                                transform: translate(2px, 5px) rotate(45deg);
+                            }
+                            &:nth-child(2) {
+                                opacity: 0;
+                            }
+                            &:nth-child(3) {
+                                transform: translate(2px, -5px) rotate(-45deg);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &__toggle {
+            display: none;
+
+            span {
+                width: 20px;
+                height: 2px;
+                display: block;
+                margin-bottom: 3px;
+                background-color: $color-primary;
+                transition: 0.3s all ease-in-out;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+
+            @include mobile {
+                display: block;
+            }
+        }
+
     }
 }

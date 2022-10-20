@@ -2,7 +2,7 @@
     height: calc(100vh - #{$header-height});
     display: flex;
     padding: 30px;
-    width: 100vw;
+    // width: 100vw;
 
     @include mobile {
         flex-direction: column;
