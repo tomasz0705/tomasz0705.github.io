@@ -502,8 +502,7 @@ a {
 @media (max-width: 792px) {
   .main__wrapper .main__aside {
     position: unset;
-    width: 80vw;
-    padding: 0px;
+    width: 100%;
   }
 }
 .main__wrapper .main__aside .aside__title {
@@ -622,16 +621,16 @@ a {
   overflow-x: hidden;
   padding: 0px 150px;
 }
+@media (max-width: 1024px) {
+  .main__content {
+    padding: 0px 40px;
+  }
+}
 @media (max-width: 792px) {
   .main__content {
     overflow: unset;
     padding: 0px 0px;
     align-items: center;
-  }
-}
-@media (max-width: 1024px) {
-  .main__content {
-    padding: 0px 40px;
   }
 }
 .main__content .portfolio {

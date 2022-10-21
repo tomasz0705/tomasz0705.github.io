@@ -7,15 +7,17 @@
     overflow-x: hidden;
     padding: 0px 150px;
 
+    @include tablet {
+        padding: 0px 40px;
+    }
+
     @include mobile {
         overflow: unset;
         padding: 0px 0px;
         align-items: center;
     }
 
-    @include tablet {
-        padding: 0px 40px;
-    }
+
 
     .portfolio {
         width: 100%;
